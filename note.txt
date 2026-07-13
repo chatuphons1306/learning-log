@@ -1,8 +1,16 @@
 ทดสอบ git
 การทดสอบใช้งาน git พื้นฐาน
+
 git init              # เริ่มทำ repo ในโฟลเดอร์นี้ (ทำครั้งเดียว)
 git status             # ดูว่าอะไรอยู่พื้นที่ไหนตอนนี้
 git add ชื่อไฟล์         # ย้ายไฟล์จาก working -> staging
 git commit -m "ข้อความ" # บันทึก staging -> repository ถาวร
 git log                # ดูประวัติ commit ทั้งหมด
 git diff               # ดูว่าไฟล์ใน working ต่างจากที่บันทึกล่าสุดตรงไหน
+
+.gitignore
+ไฟล์บอก Git ว่า "ไม่ต้องสนใจไฟล์พวกนี้เลย" — สำคัญมากสำหรับไฟล์ลับ (.env) หรือไฟล์ที่ generate ใหม่ได้เสมอ (node_modules/)
+
+
+node_modules/
+.env
