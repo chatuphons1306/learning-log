@@ -1,4 +1,5 @@
-Master version ทดสอบ git
+conflict version ทดสอบ git
+
 การทดสอบใช้งาน git พื้นฐาน
 
 git init              # เริ่มทำ repo ในโฟลเดอร์นี้ (ทำครั้งเดียว)
