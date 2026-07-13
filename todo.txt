@@ -1,0 +1,8 @@
+คำสั่งหลัก
+
+git branch                    # ดูว่ามี branch อะไรบ้าง ตอนนี้อยู่ branch ไหน (มี * นำหน้า)
+git branch ชื่อ-branch          # สร้าง branch ใหม่ (แต่ยังไม่สลับไป)
+git switch ชื่อ-branch          # สลับไป branch นั้น
+git switch -c ชื่อ-branch       # สร้าง + สลับไปในคำสั่งเดียว (-c = create)
+git merge ชื่อ-branch           # รวม branch นั้นเข้ากับ branch ที่ยืนอยู่ตอนนี้
+git branch -d ชื่อ-branch       # ลบ branch (หลัง merge เสร็จแล้ว)
