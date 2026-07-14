@@ -1,4 +1,5 @@
 conflict version ทดสอบ git
+ทดสอบการpush ขึ้นgit
 
 การทดสอบใช้งาน git พื้นฐาน
 
