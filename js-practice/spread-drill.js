@@ -26,5 +26,11 @@ const gameSteam = [
 const updatedGame = { ...gameSteam[2], price: 400 };
 console.log(updatedGame);
 
-const discountedGame = gameSteam.map(game => ({...game, price: game.price*0.4}));
+const discountedGame = gameSteam.map(game => {
+    if (game.price >= 1500) {
+        return { ...game, price: game.price * 0.4 }
+    }
+    return game;
+});
 console.log(discountedGame);
+
